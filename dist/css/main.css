@@ -4,3 +4,6 @@ Author: Mayuran maha
 Version: 0.0.1
 
 */
+/* Show it is fixed to the top */
+body {
+  padding-top: 4.5rem; }
