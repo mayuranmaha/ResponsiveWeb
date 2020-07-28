@@ -13,6 +13,7 @@
   li {
     line-height: 3.6em;
     @include add-border(1px, #cccccc, bottom);
+    overflow: auto;
   }
 
   li:last-child {
@@ -38,6 +39,7 @@
 .list-comments li {
   padding: 10px 0 5px 0;
   @include add-border(1px, $primary-color, bottom);
+  overflow: auto !important;
 }
 
 .list-comments li:last-child {

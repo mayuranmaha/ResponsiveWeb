@@ -21,9 +21,4 @@ Version: 0.0.1
 @import "layouts/_footer.scss";
 @import "layouts/_nav.scss";
 @import "layouts/_blog.scss";
-
-/* Show it is fixed to the top */
-body {
-  //min-height: 75rem;
-  padding-top: 5.5rem;
-}
+@import "layouts/_mobile.scss";

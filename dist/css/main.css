@@ -39,7 +39,11 @@ h5 {
 .img-xlg {
   width: 700px; }
 
+.clearfix {
+  clear: both; }
+
 body {
+  padding-top: 5.5rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   line-height: 1.7em;
@@ -217,7 +221,8 @@ section {
   width: 80%; }
   .list-feature li {
     line-height: 3.6em;
-    border-bottom: 1px solid #cccccc; }
+    border-bottom: 1px solid #cccccc;
+    overflow: auto; }
   .list-feature li:last-child {
     border: 0; }
   .list-feature span {
@@ -234,7 +239,8 @@ section {
 
 .list-comments li {
   padding: 10px 0 5px 0;
-  border-bottom: 1px solid #00aff0; }
+  border-bottom: 1px solid #00aff0;
+  overflow: auto !important; }
 
 .list-comments li:last-child {
   border: none; }
@@ -381,6 +387,17 @@ img.list-comments {
   border: 1px solid #cccccc;
   margin-bottom: 20px; }
 
-/* Show it is fixed to the top */
-body {
-  padding-top: 5.5rem; }
+@media (max-width: 768px) {
+  .search {
+    display: inline-block;
+    text-align: center; }
+  .device {
+    display: block;
+    margin: 20px auto 0 auto; }
+  .device-small {
+    margin-bottom: 20px !important; }
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center; }
+  .footer-main h4 {
+    text-align: center; } }
