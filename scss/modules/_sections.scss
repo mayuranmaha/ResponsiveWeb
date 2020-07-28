@@ -20,6 +20,16 @@ section {
   @include add-background($primary-color);
 }
 
+.section-primary-a {
+  @extend .section-primary;
+  @include add-border(4px, $secondary-color, top);
+}
+
+.section-primary-b {
+  @extend .section-primary;
+  @include add-border(4px, $secondary-color, bottom);
+}
+
 .section-secondary {
   @include add-background($secondary-color);
 }
